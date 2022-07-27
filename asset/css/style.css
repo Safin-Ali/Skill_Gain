@@ -1,0 +1,109 @@
+
+
+/* External Font Import */
+@import url('http://fonts.cdnfonts.com/css/poppins');
+
+/* Common Class */
+
+
+/* General Code */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --dark01: #1d1d1d;
+    --dark02: #4A4A4A;
+    --dark03: #777777;
+    --info02: #289BDE;
+}
+
+header nav .btn:hover {
+    color: #fafafa;
+}
+
+header nav .navbar-brand{
+    color: var(--dark01);
+    font-size: 2.5rem;
+}
+header nav .nav-item .nav-link{
+    color: var(--dark03);
+    font-size: 1.125rem;
+}
+
+/* Carousel Customise */
+
+.banner-bg-01{
+    background: linear-gradient(#1d1d1dc4,#1d1d1dc4),url(../images/cover/cover-1.png) no-repeat center;
+    background-size: cover;
+}
+.banner-bg-02{
+    background: linear-gradient(#1d1d1dc4,#1d1d1dc4),url(../images/cover/cover-2.jpg) no-repeat center;
+    background-size: cover;
+}
+.banner-bg-03{
+    background: linear-gradient(#1d1d1dc4,#1d1d1dc4),url(../images/cover/cover-3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.slide-content{
+    padding: 13% 20%;
+}
+.slide-content h1{
+    font-size: 4.0625rem;
+}
+.slide-content p{
+    font-size: 1.125rem;
+}
+.slide-content .btn{
+    font-size: 1.25rem;
+    background-color: #0dcaf0;
+    color: #fafafa;
+    transition: color .5s ease-in-out,
+                background-color .5s ease-in-out;
+}
+.slide-content .btn:hover{
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+}
+
+/* Discover Course Area */
+
+.discover-course-header{
+    padding: 0 25%;
+    color: var(--dark03);
+}
+.discover-course-header h1{
+    color: var(--dark01);
+    font-size: 2.8125rem;
+}
+
+.course-box .card-title{
+    color: var(--dark02);
+}
+.course-box .card-text{
+    color: var(--dark03);
+}
+.course-box .card-text.price {
+    color: #0dcaf0;
+    font-size: 1.125rem;
+}
+
+.view-all-btn .btn{
+    font-size: 1.25rem;
+    background-color: var(--info02);
+    color: #fafafa;
+    transition: color .5s ease-in-out,
+                background-color .5s ease-in-out;
+}
+.view-all-btn .btn:hover{
+    color: var(--info02);
+    border: 1px solid var(--info02);
+}
+
+
+
+
+
+
