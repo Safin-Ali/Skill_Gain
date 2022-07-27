@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 450px) {
+    .slide-content{
+        padding: 10% 15%;
+    }
+    .slide-content h1{
+        font-size: 1.5rem;
+    }
+    .slide-content p{
+        font-size: .875rem;
+    }
+    .slide .btn{
+        font-size: 1rem;
+    }
+    .discover-course-header{
+        padding: 0 10%;
+    }
+    .discover-course-header h1 {
+        font-size: 1.5rem;
+    }
+    .institute-text h1{
+        font-size: 1.7rem;
+    }
+}

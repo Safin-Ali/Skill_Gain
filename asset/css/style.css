@@ -103,6 +103,38 @@ header nav .nav-item .nav-link{
 }
 
 
+/* Institute Explore Area */
+
+.institute-text h1{
+    font-size: 2.8125rem;
+    color: var(--dark01);
+}
+.institute-text p{
+    color: var(--dark03);
+}
+.institute-text .d-flex h3{
+    font-size: 2.8125rem;
+    color: var(--dark01);
+}
+.institute-text .d-flex p{
+    font-size: 1.25rem;
+    color: var(--dark03);
+}
+
+.institute-text a.btn{
+    font-size: 1.25rem;
+    background-color: var(--info02);
+    color: #fafafa;
+    transition: background-color .4s ease-in-out;
+}
+.institute-text a.btn:hover{
+    background-color:   #2d84b6;
+    outline: 0px;
+}
+
+
+
+
 
 
 
