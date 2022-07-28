@@ -168,6 +168,27 @@ header nav .nav-item .nav-link{
     background: #F9F9F9;
 }
 
+/* Student ID Section */
+
+.studenti-id h1{
+    font-size: 2.8125rem;
+    color: var(--dark01);
+}
+.studenti-id p{
+    color: var(--dark03);
+}
+.studenti-id h4{
+    font-size: 1.25rem;
+}
+.studenti-id a{
+    color: var(--dark02);
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+.studenti-id a:hover{
+    color: var(--dark01);
+}
+
 
 
 

@@ -24,4 +24,8 @@
     .register-form h2{
         font-size: 1.5rem;
     }
+    .studenti-id h1{
+        font-size: 1.5rem;
+        color: var(--dark01);
+    }
 }
