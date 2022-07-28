@@ -21,9 +21,35 @@
     --dark01: #1d1d1d;
     --dark02: #4A4A4A;
     --dark03: #777777;
+    --dark04: #161616;
+    --dark05: #242424;
     --info02: #289BDE;
+    --dark06: #e8e8e8;
     --dark07: #f4f4f4;
 }
+
+/* -----------------------------
+        Hover Effect
+--------------------------------*/
+
+    /*======================
+        Footer Social Icon 
+    ========================*/
+.social-icon .fa-facebook:hover{
+    color: #0260D6;
+}
+.social-icon .fa-twitter:hover{
+    color: #1C93E4;
+}
+.social-icon .fa-linkedin:hover{
+    color: #0B61B8;
+}
+.social-icon .fa-tiktok:hover{
+    color: #111111;  
+    filter: drop-shadow(2px 0px 0px #FD3E3E)
+            drop-shadow(-2px -2px 0px #4DE8F4);
+}
+
 
 /* -----------------------------
     Navbar Customize 
@@ -232,4 +258,32 @@ header nav .nav-item .nav-link{
 
 .accordion-body p{
     color: var(--dark03);
+}
+
+/* -----------------------------
+   Company Brand Logo Section 
+--------------------------------*/
+
+.company-section h1{
+    font-size: 2.8125rem;
+    color: var(--dark01);
+}
+
+/* -----------------------------
+          Footer Area 
+--------------------------------*/
+
+footer{
+    background: var(--dark04);
+}
+.footer-content{
+    padding: 5% 0;
+}
+
+.footer-content p, .footer-content span{
+    color: var(--dark06);
+}
+
+.social-icon i{
+    font-size: 2.1875rem;
 }
