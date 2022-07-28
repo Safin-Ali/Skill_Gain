@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/font-awesome-6.1.1-pro.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="asset/css/custom-responsive.css">
 </head>
 
-<body class="bg-light">
+<body class="bg-light" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="1">
 
     <!-- Header Area -->
     <header class="container">
@@ -43,6 +44,9 @@
                         </li>
                         <li class="nav-item mx-0 mx-xl-3 mx-auto text-center mb-1 mb-lg-0">
                             <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-xl-3 mx-auto text-center mb-1 mb-lg-0">
+                            <a class="nav-link" href="#copywright">Copyright</a>
                         </li>
                     </ul>
                     <form class="d-flex d-md-none d-xl-block justify-content-center mt-2 mt-lg-0 justify-content-lg-start" role="search">
@@ -377,10 +381,74 @@
 
         <!-- Student Feedback Section -->
         <section class="my-5 student-feedback">
-            <div>
+            <!-- Student Feedback Header -->
+            <div class="my-5">
                 <h1 class="text-center fw-semibold">Some Students Feedback</h1>
                 <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
                      content of a page when looking at its layout.</p>
+            </div>
+            <div class="row gy-4">
+                <!-- Left Angle -->
+                <div class="col-12 col-lg-6">
+                    <div class="border rounded-2 position-relative px-4 py-3">
+                        <a href="#" class="angle-left fs-1 d-none d-lg-block">
+                            <i class="fa-light fa-angle-left"></i>
+                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="quote-icon">
+                                <i class='bx bxs-quote-right'></i>
+                            </div>
+                            <div>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star' ></i>
+                            </div>
+                        </div>
+                        <p class="ms-1 my-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <div class="pb-2 me-2">
+                                <img src="asset/images/student/student-5.png" alt="Student" class="img-fluid">
+                            </div>
+                            <div class="student-info p-2">
+                                <a href="#" class="fw-semibold">Awlad Hossain</a>
+                                <p>UI Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Angel -->
+                <div class="col-12 col-lg-6">
+                    <div class="border rounded-2 position-relative px-4 py-3">
+                        <a href="#" class="angle-right fs-1 d-none d-lg-block">
+                            <i class="fa-light fa-angle-right"></i>
+                        </a>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="quote-icon">
+                                <i class='bx bxs-quote-right'></i>
+                            </div>
+                            <div>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star' ></i>
+                            </div>
+                        </div>
+                        <p class="ms-1 my-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <div class="pb-2 me-2">
+                                <img src="asset/images/student/student-6.png" alt="Student" class="img-fluid">
+                            </div>
+                            <div class="student-info p-2">
+                                <a href="#" class="fw-semibold">Shanta Akter</a>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -463,7 +531,7 @@
     </main>
     
     <!-- Footer Area -->
-    <footer class="mt-5">
+    <footer class="mt-5" id="copywright">
         <!-- Footer Text -->
         <div class="footer-content text-center">
             <h2 class="fw-semibold text-white">Skill Gain</h2>

@@ -263,6 +263,53 @@ header nav .nav-item{
     color: var(--dark01);
     font-size: 2.8125rem;
 }
+.student-feedback p{
+    color: var(--dark03);
+}
+
+.student-feedback .bxs-star{
+    color: #F59E0B;
+}
+.student-feedback .bx-star{
+    color: #FBBF24;
+}
+.student-feedback .bxs-quote-right{
+    font-size: 3.4375rem;
+    color: #D2D2D2;
+}
+.student-feedback .student-info p{
+    color: var(--dark03);
+}
+.student-feedback .student-info a{
+    text-decoration: none;
+    color: var(--dark01);
+    font-size: 1.125rem;
+}
+.angle-left {
+    position: absolute;
+    left: -5%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.angle-right {
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+.fa-angle-left,.fa-angle-right{
+    color: #ffffff;
+    background-color: var(--info02);
+    padding: .3125rem .9375rem;
+    border-radius: 100%;    
+    transition: color,background-color .3s ease-in-out;
+    text-align: center;
+}
+.fa-angle-left:hover,
+.fa-angle-right:hover{
+    color: var(--info02);
+    background-color: #E5F6FF;
+}
 
 /* -----------------------------
   Frequently Questions Customize 
