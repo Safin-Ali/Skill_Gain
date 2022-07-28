@@ -1,17 +1,22 @@
 
 
-/* External Font Import */
+/* -----------------------------
+    External Font Import 
+--------------------------------*/
 @import url('http://fonts.cdnfonts.com/css/poppins');
 
-/* Common Class */
 
-
-/* General Code */
+/* -----------------------------
+        Universal Code
+--------------------------------*/
 
 *{
     font-family: 'Poppins', sans-serif;
 }
 
+/* -----------------------------
+    Color vaiables 
+--------------------------------*/
 :root{
     --dark01: #1d1d1d;
     --dark02: #4A4A4A;
@@ -19,6 +24,10 @@
     --info02: #289BDE;
     --dark07: #f4f4f4;
 }
+
+/* -----------------------------
+    Navbar Customize 
+--------------------------------*/
 
 header nav .btn:hover {
     color: #fafafa;
@@ -28,12 +37,15 @@ header nav .navbar-brand{
     color: var(--dark01);
     font-size: 2.5rem;
 }
+
 header nav .nav-item .nav-link{
     color: var(--dark03);
     font-size: 1.125rem;
 }
 
-/* Carousel Customise */
+/* -----------------------------
+    Carousel Customise 
+--------------------------------*/
 
 .banner-bg-01{
     background: linear-gradient(#1d1d1dc4,#1d1d1dc4),url(../images/cover/cover-1.png) no-repeat center;
@@ -69,7 +81,9 @@ header nav .nav-item .nav-link{
     border: 1px solid #0dcaf0;
 }
 
-/* Discover Course Area */
+/* -----------------------------
+    Discover Course Area 
+--------------------------------*/
 
 .discover-course-header{
     padding: 0 25%;
@@ -104,7 +118,9 @@ header nav .nav-item .nav-link{
 }
 
 
-/* Institute Explore Area */
+/* -----------------------------
+    Institute Explore Area 
+--------------------------------*/
 
 .institute-text h1{
     font-size: 2.8125rem;
@@ -133,7 +149,9 @@ header nav .nav-item .nav-link{
     outline: 0px;
 }
 
-/* Register Form Section */
+/* -----------------------------
+    Register Form Section 
+--------------------------------*/
 .register-form{
     background: #289BDE;
 }
@@ -168,7 +186,9 @@ header nav .nav-item .nav-link{
     background: #F9F9F9;
 }
 
-/* Student ID Section */
+/* -----------------------------
+    Student ID Section 
+--------------------------------*/
 
 .studenti-id h1{
     font-size: 2.8125rem;
@@ -189,10 +209,27 @@ header nav .nav-item .nav-link{
     color: var(--dark01);
 }
 
+/* -----------------------------
+    Student Feedback Section 
+--------------------------------*/
 
+.student-feedback h1{
+    color: var(--dark01);
+    font-size: 2.8125rem;
+}
 
+/* -----------------------------
+  Frequently Questions Section 
+--------------------------------*/
 
+.qeuestion-header h1{
+    font-size: 2.8125rem;
+    color: var(--dark01);
+}
+.qeuestion-header p{
+    color: var(--dark03);
+}
 
-
-
-
+.accordion-body p{
+    color: var(--dark03);
+}

@@ -29,20 +29,20 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item mx-3">
+                        <li class="nav-item mx-0 mx-lg-3 mx-auto text-center mb-1 mb-lg-0">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item mx-3">
+                        <li class="nav-item mx-0 mx-lg-3 mx-auto text-center mb-1 mb-lg-0">
                             <a class="nav-link" href="#">Course</a>
                         </li>
-                        <li class="nav-item mx-3">
+                        <li class="nav-item mx-0 mx-lg-3 mx-auto text-center mb-1 mb-lg-0">
                             <a class="nav-link" href="#">Success</a>
                         </li>
-                        <li class="nav-item mx-3">
+                        <li class="nav-item mx-0 mx-lg-3 mx-auto text-center mb-1 mb-lg-0">
                             <a class="nav-link" href="#">About</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex justify-content-center mt-2 mt-lg-0 justify-content-lg-start" role="search">
                         <button class="btn btn-outline-info" type="submit">Register</button>
                     </form>
                 </div>
@@ -271,12 +271,12 @@
         <!-- Register Form -->
         <section class="my-5 p-5 register-form">
             <div class="row align-items-center px-3">
-                <div class="col-12 col-lg-6 text-center text-lg-start">
+                <div class="col-12 col-xl-6 text-xl-start text-center">
                     <h2 class="text-white fw-semibold">Ready to join?</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when looking at its layout.</p>
                 </div>
-                <div class="col-12 col-lg-6 text-lg-end text-center">
+                <div class="col-12 col-xl-6 text-xl-end text-center">
                     <button type="button" class="register-btn fw-semibold" data-bs-toggle="modal" data-bs-target="#loginModal"
                         data-bs-whatever="@mdo">Register Now</button>
                     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel"
@@ -319,7 +319,7 @@
             </div>
         </section>
 
-        <!-- Student ID List -->
+        <!-- Student ID List Section -->
         <section class="my-5 studenti-id">
             <h1 class="fw-semibold">Meet Our Successfull <br> Students</h1>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -370,6 +370,78 @@
                 </div>
 
             </div>
+        </section>
+
+        <!-- Student Feedback Section -->
+        <section class="my-5 student-feedback">
+            <div>
+                <h1 class="text-center fw-semibold">Some Students Feedback</h1>
+                <p class="text-center">It is a long established fact that a reader will be distracted by the readable <br>
+                     content of a page when looking at its layout.</p>
+            </div>
+        </section>
+
+        <!-- Frequently Asked Questions Section -->
+        <section class="my-5">
+            <div class="qeuestion-header text-center my-5">
+                <h1 class="fw-semibold">Frequently Asked Questions</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br>
+                     content of a page when looking at its layout.</p>
+            </div>
+            <div class="accordion px-5 mx-5" id="accordionExample">
+                        <!-- Questions 01 -->
+                <div class="accordion-item mb-4 border">
+                  <h2 class="accordion-header py-1 px-1" id="headingOne">
+                    <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What are the difference is beetween of flexbox and grid?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</p>
+                    </div>
+                  </div>
+                </div>
+                        <!-- Questions 02 -->
+                <div class="accordion-item mb-4 border">
+                  <h2 class="accordion-header py-1 px-1" id="headingTwo">
+                    <button class="accordion-button fw-semibold text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What are the difference beetween of bootstrap vs tailwind
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical</p>
+                    </div>
+                  </div>
+                </div>
+                        <!-- Questions 03-->
+                <div class="accordion-item mb-4 border">
+                  <h2 class="accordion-header py-1 px-1" id="headingThere">
+                    <button class="accordion-button fw-semibold text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThere" aria-expanded="false" aria-controls="collapseThere">
+                        What is css box model?
+                    </button>
+                  </h2>
+                  <div id="collapseThere" class="accordion-collapse collapse" aria-labelledby="headingThere" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p>The CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model.</p>
+                    </div>
+                  </div>
+                </div>
+                        <!-- Questions 04 -->
+                <div class="accordion-item mb-4 border">
+                  <h2 class="accordion-header py-1 px-1" id="headingFour">
+                    <button class="accordion-button fw-semibold text-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What is semantic tag of html?
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </section>
 
     </main>

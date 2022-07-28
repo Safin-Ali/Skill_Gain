@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 300px) and (max-width:450px) {
     .slide-content{
         padding: 10% 15%;
     }
@@ -26,6 +26,18 @@
     }
     .studenti-id h1{
         font-size: 1.5rem;
-        color: var(--dark01);
+    }
+    .student-feedback h1{
+        font-size: 1.5rem;
+    }
+    .qeuestion-header h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    header nav .nav-item{
+        border-bottom: 1px solid var(--dark03);
+        width: 70%;
     }
 }
