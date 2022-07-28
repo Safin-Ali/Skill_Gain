@@ -17,6 +17,7 @@
     --dark02: #4A4A4A;
     --dark03: #777777;
     --info02: #289BDE;
+    --dark07: #f4f4f4;
 }
 
 header nav .btn:hover {
@@ -130,6 +131,41 @@ header nav .nav-item .nav-link{
 .institute-text a.btn:hover{
     background-color:   #2d84b6;
     outline: 0px;
+}
+
+/* Register Form Section */
+.register-form{
+    background: #289BDE;
+}
+
+.register-form h2{
+    font-size: 2.8125rem;
+}
+.register-form p{
+    color: var(--dark07);
+}
+
+.register-btn{
+    color: #289BDE;
+    background-color: #fafafa;
+    transition: color .3s linear,
+                background-color .3s linear;
+    padding: 7.5px 10px;
+    border-radius: .3125rem;
+    border: none;
+    font-family: 1.25rem;
+}
+.register-btn:hover{
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px dashed #ffffff;
+}
+.modal-body input{
+    outline: none;
+    border: .0313rem solid;
+}
+.modal-body input:focus{
+    background: #F9F9F9;
 }
 
 
