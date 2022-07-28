@@ -1,46 +1,72 @@
-
 @media only screen and (min-width: 300px) and (max-width:450px) {
-    .slide-content{
+    .slide-content {
         padding: 10% 15%;
     }
-    .slide-content h1{
+
+    .slide-content h1 {
         font-size: 1.5rem;
     }
-    .slide-content p{
+
+    .slide-content p {
         font-size: .875rem;
     }
-    .slide .btn{
+
+    .slide .btn {
         font-size: 1rem;
     }
-    .discover-course-header{
+
+    .discover-course-header {
         padding: 0 10%;
     }
+
     .discover-course-header h1 {
         font-size: 1.5rem;
     }
-    .institute-text h1{
+
+    .institute-text h1 {
         font-size: 1.7rem;
     }
-    .register-form h2{
+
+    .register-form h2 {
         font-size: 1.5rem;
     }
-    .studenti-id h1{
+
+    .studenti-id h1 {
         font-size: 1.5rem;
     }
-    .student-feedback h1{
+
+    .student-feedback h1 {
         font-size: 1.5rem;
     }
-    .qeuestion-header h1{
+
+    .qeuestion-header h1 {
         font-size: 1.5rem;
     }
-    .company-section h1{
+
+    .company-section h1 {
         font-size: 1.5rem;
     }
 }
 
-@media only screen and (max-width: 991px){
-    header nav .nav-item{
+@media only screen and (max-width: 991px) {
+    header nav .nav-item {
         border-bottom: 1px solid var(--dark03);
         width: 70%;
+    }
+    .discover-course-header {
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .discover-course-header {
+        padding: 0 10%;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .discover-course-header {
+        padding: 0;
     }
 }
