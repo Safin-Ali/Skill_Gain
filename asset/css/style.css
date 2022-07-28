@@ -1,15 +1,12 @@
 
-
 /* -----------------------------
     External Font Import 
 --------------------------------*/
 @import url('http://fonts.cdnfonts.com/css/poppins');
 
-
 /* -----------------------------
         Universal Code
 --------------------------------*/
-
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -37,22 +34,43 @@
     ========================*/
 .social-icon .fa-facebook:hover{
     color: #0260D6;
+    transition: color .4s ease-in-out;
 }
 .social-icon .fa-twitter:hover{
     color: #1C93E4;
+    transition: color .4s ease-in-out;
 }
 .social-icon .fa-linkedin:hover{
     color: #0B61B8;
+    transition: color .4s ease-in-out;
 }
 .social-icon .fa-tiktok:hover{
     color: #111111;  
     filter: drop-shadow(2px 0px 0px #FD3E3E)
             drop-shadow(-2px -2px 0px #4DE8F4);
+    transition: color .4s ease-in-out;
+}
+
+    /*======================
+           Navbar Link 
+    ========================*/
+header nav .nav-item .nav-link:hover{
+        color: var(--dark04);
+}
+
+/*======================
+        Student ID Link 
+    ========================*/
+
+.studenti-id a:hover{
+    color: var(--dark01);
 }
 
 
+
+
 /* -----------------------------
-    Navbar Customize 
+        Navbar Customize 
 --------------------------------*/
 
 header nav .btn:hover {
@@ -68,9 +86,14 @@ header nav .nav-item .nav-link{
     color: var(--dark03);
     font-size: 1.125rem;
 }
+header nav .nav-item{
+    position: relative;
+    display: inline-block;
+    transition: color .3s ease-in-out;
+}
 
 /* -----------------------------
-    Carousel Customise 
+        Carousel Customize 
 --------------------------------*/
 
 .banner-bg-01{
@@ -108,7 +131,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-    Discover Course Area 
+    Discover Course Customize 
 --------------------------------*/
 
 .discover-course-header{
@@ -145,7 +168,7 @@ header nav .nav-item .nav-link{
 
 
 /* -----------------------------
-    Institute Explore Area 
+   Institute Explore Customize 
 --------------------------------*/
 
 .institute-text h1{
@@ -176,7 +199,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-    Register Form Section 
+     Register Form Customize 
 --------------------------------*/
 .register-form{
     background: #289BDE;
@@ -213,7 +236,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-    Student ID Section 
+       Student ID Customize 
 --------------------------------*/
 
 .studenti-id h1{
@@ -231,12 +254,9 @@ header nav .nav-item .nav-link{
     text-decoration: none;
     transition: color .3s ease-in-out;
 }
-.studenti-id a:hover{
-    color: var(--dark01);
-}
 
 /* -----------------------------
-    Student Feedback Section 
+    Student Feedback Customize 
 --------------------------------*/
 
 .student-feedback h1{
@@ -245,7 +265,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-  Frequently Questions Section 
+  Frequently Questions Customize 
 --------------------------------*/
 
 .qeuestion-header h1{
@@ -261,7 +281,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-   Company Brand Logo Section 
+   Company Brand Logo Customize 
 --------------------------------*/
 
 .company-section h1{
@@ -270,7 +290,7 @@ header nav .nav-item .nav-link{
 }
 
 /* -----------------------------
-          Footer Area 
+      Footer Area Customize
 --------------------------------*/
 
 footer{
